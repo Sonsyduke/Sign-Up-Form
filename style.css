@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B1B43;
+    font-family: "Roboto Slab";
+}
+
+.form{
+    background-color: #fff;
+    width: 30%;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.google-btn{
+    margin: 50px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-right: 50px;
+    background-color: #5B83E3;
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px #ccc;
+}
+
+.google-btn:hover{
+    cursor: pointer;
+}
+
+.google{
+    align-self: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.email-option{
+    margin: 40px auto;
+    width: 65%;
+}
+
+.email-sign-up {
+    color: #848484;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #848484; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ }
+ 
+.email-sign-up span { 
+     background:#fff; 
+     padding:0 10px; 
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+}
+
+.name{
+    align-self: flex-start;
+    font-size: 14px;
+}
+
+.input{
+    margin: 5px 0 20px 0;
+    padding: 15px 20px;
+    border: 1px solid #D9DCED;
+    border-radius: 5px;
+}
+
+.input::placeholder{
+    color: #949495;
+}
+
+.submit{
+    background-color: #E65B7C;
+    padding: 15px 0;
+    width: 65%;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.btn-text{
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+}
+
+.log-in {
+    font-size: 15px;
+}
+
+.log{
+    color: #5B86E6;
+}
+
+.log:hover{
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1000px){
+    .form{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .form{
+        width: 70%;
+    }
+}
